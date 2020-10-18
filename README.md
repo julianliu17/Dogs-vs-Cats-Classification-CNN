@@ -27,7 +27,15 @@ __Data Source__: https://www.kaggle.com/c/dogs-vs-cats-redux-kernels-edition/dat
 __GUI Code__: https://data-flair.training/blogs/cats-dogs-classification-deep-learning-project-beginners/
 
 __Learning Materials__: 
-* https://www.youtube.com/watch?v=YRhxdVk_sIs  
-* https://www.youtube.com/watch?v=cNBBNAxC8l4
-* https://towardsdatascience.com/deciding-optimal-filter-size-for-cnns-d6f7b56f9363
-* https://keras.io/api/layers/convolution_layers/convolution2d/
+* https://www.youtube.com/watch?v=YRhxdVk_sIs   - Introduction to CNN
+* https://www.youtube.com/watch?v=cNBBNAxC8l4   - Convolutional Filters
+* https://towardsdatascience.com/deciding-optimal-filter-size-for-cnns-d6f7b56f9363   - Optimal filter size for CNNs
+* https://keras.io/api/layers/convolution_layers/convolution2d/   - Keras CNN documentation
+
+## Data Processing and Image Augmentation
+I started off with creating a dataframe of our data and plotting a countplot to have a feel for the data, the 25000 images was split 50/50 dogs and cats.
+
+![df_info](https://github.com/julianliu17/Dogs-vs-Cats-Classification-CNN/blob/main/Pictures/df_info.JPG "df_info")
+![countplot](https://github.com/julianliu17/Dogs-vs-Cats-Classification-CNN/blob/main/Pictures/countplot.JPG "countplot")
+![split](https://github.com/julianliu17/Dogs-vs-Cats-Classification-CNN/blob/main/Pictures/train_test_split.JPG "split")
+
