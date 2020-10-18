@@ -36,6 +36,8 @@ __Learning Materials__:
 I started off with creating a dataframe of our data and plotting a countplot to have a feel for the data, the 25000 images was split 50/50 dogs and cats.
 
 ![df_info](https://github.com/julianliu17/Dogs-vs-Cats-Classification-CNN/blob/main/Pictures/df_info.JPG "df_info")
+
 ![countplot](https://github.com/julianliu17/Dogs-vs-Cats-Classification-CNN/blob/main/Pictures/countplot.JPG "countplot")
+
 ![split](https://github.com/julianliu17/Dogs-vs-Cats-Classification-CNN/blob/main/Pictures/train_test_split.JPG "split")
 
