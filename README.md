@@ -55,4 +55,31 @@ After running the code I plotted some augmented images of a random sample in the
 
 ![code](https://github.com/julianliu17/Dogs-vs-Cats-Classification-CNN/blob/main/Pictures/augmenteddog.JPG "code")
 
+## Model Building
+I started by building a base model and running with 3 epochs, which took surprisingly long. This base model had an accuracy of 71%.
+
+![base model](https://github.com/julianliu17/Dogs-vs-Cats-Classification-CNN/blob/main/Pictures/basemodel.JPG "base model")
+
+For my second model I added batch normalization, dropout and a 512 Dense layer after flattening. I also added early stopping and learning rate reduction with `from keras.callbacks import EarlyStopping, ReduceLROnPlateau`. However, I realized after running the model that I set `monitor = 'val_acc'` instead of `monitor = 'val_accuracy'`, so I don't think the learning rate reduction worked. This model only improved slightly from the base model after 3 epochs and after 10 epochs it had an accuracy of 80.7%. 
+
+![improved model](https://github.com/julianliu17/Dogs-vs-Cats-Classification-CNN/blob/main/Pictures/improved%20model.JPG "improved model")
+
+Finally, I added an extra Conv2D layer and more dropout layers to my final model. This model achieved an accuracy of 82% after 10 epochs. For some reason, my models ran for a long time (2/3 hours), perhaps because my image size (200x200) and batch sizes (100) were too large and small respectively for my computer. 
+
+![final model](https://github.com/julianliu17/Dogs-vs-Cats-Classification-CNN/blob/main/Pictures/finalmodelcode.JPG "final model")
+
+![final model](https://github.com/julianliu17/Dogs-vs-Cats-Classification-CNN/blob/main/Pictures/finalmodelsummary.JPG "final model")
+
+![final model](https://github.com/julianliu17/Dogs-vs-Cats-Classification-CNN/blob/main/Pictures/modelperformanceviz.JPG "final model")
+
+As can be seen from the training and validation accuracy and loss graphs, our model is still improving after 10 epochs, therefore it can be argued that my model should be able to perform better than 82%. Nevertheless, I didn't want to run my models for longer as I was pleased with my model's performance after testing it with custom images on the GUI classifier.
+
+Here are some examples of the predictions made by the model using the test set of 12500 images.
+
+![final pred](https://github.com/julianliu17/Dogs-vs-Cats-Classification-CNN/blob/main/Pictures/finalpredictions.png "final pred")
+
+Not bad at all! In this sample size of 18, the model only misclassified 1/18.
+
+
+
 
