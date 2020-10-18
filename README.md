@@ -17,3 +17,17 @@ gui.py - *GUI code for easy classification of any custom dog or cat images, run 
 
 model3_dogsvscats_10epochs.h5 - *Final CNN model, load by running `from tensorflow.keras.models import load_model` then `model = load_model('model3_dogsvscats_10epochs.h5')`*
 
+## Resources Used
+__Python Version__: 3.8
+
+__Packages__: numpy, pandas, matplotlib, seaborn, tensorflow, keras, sklearn, cv2
+
+__Data Source__: https://www.kaggle.com/c/dogs-vs-cats-redux-kernels-edition/data
+
+__GUI Code__: https://data-flair.training/blogs/cats-dogs-classification-deep-learning-project-beginners/
+
+__Learning Materials__: 
+*https://www.youtube.com/watch?v=YRhxdVk_sIs  
+*https://www.youtube.com/watch?v=cNBBNAxC8l4
+*https://towardsdatascience.com/deciding-optimal-filter-size-for-cnns-d6f7b56f9363
+https://keras.io/api/layers/convolution_layers/convolution2d/
