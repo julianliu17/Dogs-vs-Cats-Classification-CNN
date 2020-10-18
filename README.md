@@ -41,3 +41,18 @@ I started off with creating a dataframe of our data and plotting a countplot to 
 
 ![split](https://github.com/julianliu17/Dogs-vs-Cats-Classification-CNN/blob/main/Pictures/train_test_split.JPG "split")
 
+Then I plotted a few original images of dogs and cats in the dataset.
+
+![preaug](https://github.com/julianliu17/Dogs-vs-Cats-Classification-CNN/blob/main/Pictures/dogsandcatspreaug.JPG "preaug")
+
+Here is the code that I ran to augment the original images using `keras.preprocessing.image.ImageDataGenerator` and `.flow_from_dataframe`.
+
+![code](https://github.com/julianliu17/Dogs-vs-Cats-Classification-CNN/blob/main/Pictures/imagedatagenerator.JPG "code")
+
+![code](https://github.com/julianliu17/Dogs-vs-Cats-Classification-CNN/blob/main/Pictures/traintestdatagen.JPG "code")
+
+After running the code I plotted some augmented images of a random sample in the data. 
+
+![code](https://github.com/julianliu17/Dogs-vs-Cats-Classification-CNN/blob/main/Pictures/augmenteddog.JPG "code")
+
+
