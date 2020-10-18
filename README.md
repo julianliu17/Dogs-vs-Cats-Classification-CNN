@@ -27,7 +27,7 @@ __Data Source__: https://www.kaggle.com/c/dogs-vs-cats-redux-kernels-edition/dat
 __GUI Code__: https://data-flair.training/blogs/cats-dogs-classification-deep-learning-project-beginners/
 
 __Learning Materials__: 
-*https://www.youtube.com/watch?v=YRhxdVk_sIs  
-*https://www.youtube.com/watch?v=cNBBNAxC8l4
-*https://towardsdatascience.com/deciding-optimal-filter-size-for-cnns-d6f7b56f9363
-https://keras.io/api/layers/convolution_layers/convolution2d/
+* https://www.youtube.com/watch?v=YRhxdVk_sIs  
+* https://www.youtube.com/watch?v=cNBBNAxC8l4
+* https://towardsdatascience.com/deciding-optimal-filter-size-for-cnns-d6f7b56f9363
+* https://keras.io/api/layers/convolution_layers/convolution2d/
