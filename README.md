@@ -8,7 +8,7 @@
 4. Evaluated final CNN model with 12500 testing set images, also downloaded from [kaggle](https://www.kaggle.com/c/dogs-vs-cats-redux-kernels-edition/data)
 5. Modified GUI sourced [from this link](https://data-flair.training/blogs/cats-dogs-classification-deep-learning-project-beginners/) for our model, easy to use and can be used to classify any custom images of dogs or cats
 
-This was an introductory/personal research project into computer vision and deep learning. I learned a ton during this project! Any tips for making my model more robust and less expensive are more than welcome. This was originally a 2013 kaggle competition hosted by kaggle, with the goal of identifying images of dogs and cats with deep learning. 
+This was an introductory/personal research project into computer vision and deep learning. My goal from this project was to familiarize myself with deep learning and computer vision techniques. I learned a ton from this project! Any tips for making my model more robust and less expensive are more than welcome. This was originally a 2013 kaggle competition hosted by kaggle, with the goal of identifying images of dogs and cats with deep learning. 
 
 ## File Descriptions
 DogsVsCats.ipynb - *Jupyter Notebook with image processing, image augmentation, CNN model and predictions on test set images.*
@@ -93,5 +93,4 @@ Overall, I am very happy with the outcome of this project. Again, my main goal o
 
 I ran some predictions with some custom images both downloaded from the internet and photos from friends, and it did not disappoint! It was very accurate when classifying unseen images. However, one thing I would like to address in the future is the slow speed when fitting my model. I could definitely look into optimizing the speed of my code such as playing around with the image size and batch size, as well as trying to classify without image augmentation.
 
-That's it! Thanks for making it this far!
-
+That's it for this project, thanks for making it this far!
