@@ -89,7 +89,7 @@ To run gui.py, follow the steps below.
 ![guidemo](https://github.com/julianliu17/Dogs-vs-Cats-Classification-CNN/blob/main/Pictures/guidemo.JPG "guidemo")
 
 ## Project Evaluation
-Overall, I am very happy with the outcome of this project. Again, my main goal of this project is to familiarize myself with deep learning and computer vision techniques. Although the accuracy of my final model is nowhere near 97-98% which I've seen during my research, the model was still improving after 10 epochs so perhaps it could reach 90% after a few more epochs. 
+Overall, the main goal of this project has been met. The main goal was to familiarize myself with deep learning and computer vision techniques. Although the accuracy of my final model wasn't in the 97-99% territory, the model was still improving after 10 epochs so perhaps it could reach 90% after a few more epochs. 
 
 I ran some predictions with some custom images both downloaded from the internet and photos from friends, and it did not disappoint! It was very accurate when classifying unseen images. However, one thing I would like to address in the future is the slow speed when fitting my model. I could definitely look into optimizing the speed of my code such as playing around with the image size and batch size, as well as trying to classify without image augmentation.
 
